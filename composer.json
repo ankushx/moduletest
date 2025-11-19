@@ -5,25 +5,10 @@
     "license": "proprietary",
     "version": "1.0.0",
     "require": {
-        "php": "^7.4|^8.0|^8.1|^8.2|^8.3|^8.4",
-        "yourvendor/module-one": "^1.0",
-        "yourvendor/module-two": "^1.0"
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./src/ModuleOne",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "./src/ModuleTwo",
-            "options": {
-                "symlink": true
-            }
-        }
-    ]
-
+        "php": "^7.4|^8.4|^8.3",
+        "yourvendor/module-one": "1.0.0",
+        "yourvendor/module-two": "1.0.0",
+        "yourvendor/module-three": "1.0.0",
+        "yourvendor/module-four": "1.0.0"
+    }
 }
