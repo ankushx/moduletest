@@ -1,0 +1,30 @@
+{
+    "name": "yourvendor/magento-extensions-bundle",
+    "description": "Bundle of all custom Magento 2 extensions",
+    "type": "metapackage",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.4|^8.0|^8.1",
+        "yourvendor/module-one": "^1.0",
+        "yourvendor/module-two": "^1.0",
+        "yourvendor/module-three": "^1.0",
+        "yourvendor/module-four": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./src/ModuleOne",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "./src/ModuleTwo",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
