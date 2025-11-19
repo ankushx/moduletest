@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "license": "proprietary",
     "require": {
-        "php": "^7.4|^8.0|^8.1",
+        "php": "^7.4|^8.3|^8.4",
         "magento/framework": "^102.0|^103.0"
     },
     "autoload": {
@@ -16,4 +16,5 @@
             "YourVendor\\ModuleTwo\\": ""
         }
     }
+
 }
